@@ -1,10 +1,4 @@
-/*
-BAND.CSS
-
-Course:  Bootstrap 4 Quick Start
-Author:  Brad Hussey
-Website: bradhussey.ca
-*/
+/* BAND.CSS */
 
 .navbar-collapse .container-fluid {
   padding: 2rem 2.5rem;
@@ -48,8 +42,8 @@ Website: bradhussey.ca
 }
 
 .jumbotron p {
-    color: white;
-    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+  color: white;
+  text-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .album {
@@ -61,13 +55,13 @@ Website: bradhussey.ca
 .card {
   float: left;
   width: 33.333%;
-  padding: .75rem;
+  padding: 0.75rem;
   margin-bottom: 2rem;
   border: 0;
 }
 
 .card > img {
-  margin-bottom: .75rem;
+  margin-bottom: 0.75rem;
   max-width: 100%;
 }
 
@@ -81,5 +75,5 @@ footer {
 }
 
 footer p {
-  margin-bottom: .25rem;
+  margin-bottom: 0.25rem;
 }
