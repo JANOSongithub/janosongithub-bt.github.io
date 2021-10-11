@@ -1,10 +1,4 @@
-/*
-STARTUP.CSS
-
-Course:  Bootstrap 4 Quick Start
-Author:  Brad Hussey
-Website: bradhussey.ca
-*/
+/* STARTUP.CSS */
 
 html,
 body {
@@ -89,6 +83,19 @@ img {
 .feature-alt {
     background: #f0f0f0;
 }
+
+/* Media Queries
+
+@media screen and ( min-width: 991px) { 
+
+    .feature-content {
+        display: flex;
+        align-items: center;
+    }
+    
+} */
+
+
 
 #feature-four .feature-content {
     padding: 0;
