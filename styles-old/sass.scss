@@ -1,0 +1,41 @@
+body {
+    font-size: 20px;
+}
+
+h1 {
+    color: pink;
+}
+
+p {
+    font-size: 30px;
+}
+
+h3 {
+    color: purple;
+}
+h2 {
+    font-size: 16px;
+}
+
+h6 {
+    font-size: 40px;
+    color: red;
+}
+
+nav {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+  
+    li { display: inline-block; }
+  
+    a {
+      display: block;
+      padding: 6px 12px;
+      text-decoration: none;
+    }
+  }
+
+  

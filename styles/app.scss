@@ -1,0 +1,241 @@
+// 1 - Load project variables.
+// 2 - Load bootstrap sass files.
+// 3 - Load custom app sass files.
+
+// --------------------------------------------------------
+//  Import in the default bootstrap variables.
+//  Then override bootstrap default with project specific values.
+// --------------------------------------------------------
+
+@import "../bower_components/bootstrap/scss/variables";
+@import "variables";
+
+// --------------------------------------------------------
+// Import required bootstrap sass files needed for this project.
+// Uncomment any bootstrap functionality required for this project.
+// The idea is to keep this as small as possible.
+// --------------------------------------------------------*/
+
+/* --------------------------------------------------------
+   Core mixins
+   -------------------------------------------------------- */
+
+@import "../bower_components/bootstrap/scss/mixins";
+
+
+
+/* --------------------------------------------------------
+   Reset and dependencies
+   -------------------------------------------------------- */
+
+@import "../bower_components/bootstrap/scss/normalize";
+@import "../bower_components/bootstrap/scss/print";
+
+
+
+/* --------------------------------------------------------
+   Core CSS
+   -------------------------------------------------------- */
+
+@import "../bower_components/bootstrap/scss/reboot";
+@import "../bower_components/bootstrap/scss/type";
+//@import "../bower_components/bootstrap/scss/images";
+//@import "../bower_components/bootstrap/scss/code";
+@import "../bower_components/bootstrap/scss/grid";
+//@import "../bower_components/bootstrap/scss/tables";
+//@import "../bower_components/bootstrap/scss/forms";
+@import "../bower_components/bootstrap/scss/buttons";
+
+
+
+/* --------------------------------------------------------
+   Components
+   -------------------------------------------------------- */
+
+//@import "../bower_components/bootstrap/scss/animation";
+@import "../bower_components/bootstrap/scss/dropdown";
+//@import "../bower_components/bootstrap/scss/button-group";
+//@import "../bower_components/bootstrap/scss/input-group";
+//@import "../bower_components/bootstrap/scss/custom-forms";
+@import "../bower_components/bootstrap/scss/nav";
+@import "../bower_components/bootstrap/scss/navbar";
+@import "../bower_components/bootstrap/scss/card";
+//@import "../bower_components/bootstrap/scss/breadcrumb";
+//@import "../bower_components/bootstrap/scss/pagination";
+//@import "../bower_components/bootstrap/scss/pager";
+//@import "../bower_components/bootstrap/scss/labels";
+//@import "../bower_components/bootstrap/scss/jumbotron";
+//@import "../bower_components/bootstrap/scss/alert";
+//@import "../bower_components/bootstrap/scss/progress";
+//@import "../bower_components/bootstrap/scss/media";
+//@import "../bower_components/bootstrap/scss/list-group";
+@import "../bower_components/bootstrap/scss/responsive-embed";
+//@import "../bower_components/bootstrap/scss/close";
+
+
+
+/* --------------------------------------------------------
+   Components w/ JavaScript
+   -------------------------------------------------------- */
+
+//@import "../bower_components/bootstrap/scss/modal";
+//@import "../bower_components/bootstrap/scss/tooltip";
+//@import "../bower_components/bootstrap/scss/popover";
+//@import "../bower_components/bootstrap/scss/carousel";
+
+
+
+/* --------------------------------------------------------
+   Utility classes
+   -------------------------------------------------------- */
+
+@import "../bower_components/bootstrap/scss/utilities";
+@import "../bower_components/bootstrap/scss/utilities-background";
+//@import "../bower_components/bootstrap/scss/utilities-spacing";
+@import "../bower_components/bootstrap/scss/utilities-responsive";
+
+/* STARTUP.CSS */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    color: #6c6f73;
+}
+
+h1,h2,h3,h4,h5 {
+    color: #333;
+}
+
+h6 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.blockquote {
+    font-size: 1.6rem;
+    color: #333;
+    border: none;
+    padding: 0;
+}
+
+.blockquote-footer {
+    margin: 1rem 0 0;
+}
+
+#stage {
+    background: url('img/stage.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#stage-caption {
+    font-size: 1.4rem;
+    font-weight: 200;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#stage-caption h1 {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    }
+
+.feature-content {
+    padding: 8rem 0;
+    overflow: hidden;
+}
+
+.feature-content img {
+    margin-bottom: -8rem;
+}
+
+.feature-dark {
+    background: #262F36;
+    color: white;
+}
+
+.feature-dark h2 {
+    color: white;
+}
+
+.feature-alt {
+    background: #f0f0f0;
+}
+
+/* Media Queries
+
+@media screen and ( min-width: 991px) { 
+
+    .feature-content {
+        display: flex;
+        align-items: center;
+    }
+    
+} */
+
+
+
+#feature-four .feature-content {
+    padding: 0;
+}
+
+#feature-five img {
+    margin-top: 2rem;
+}
+
+#main-footer {
+    background: #262F36;
+    color: white;
+    padding: 6rem 0;
+    font-size: 0.8rem;
+}
+
+#main-footer h6 {
+    color: #718FA9;
+}
+
+#main-footer a {
+    color: #6C6F73;
+}
+
+/* Media Queries */
+
+@media screen and ( min-width : 991px ) {
+    
+    .feature-content {
+        display: flex;
+        align-items: center;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------------
+   Custom application specific styles
+   -------------------------------------------------------- */
+
+@import "base";

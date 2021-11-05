@@ -37,7 +37,6 @@ img {
     margin: 1rem 0 0;
 }
 
-
 #stage {
     background: url('img/stage.jpg') center center no-repeat;
     background-size: cover;
@@ -60,7 +59,7 @@ img {
     color: white;
     font-weight: bold;
     text-transform: uppercase;
-}
+    }
 
 .feature-content {
     padding: 8rem 0;
