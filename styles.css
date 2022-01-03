@@ -58,3 +58,39 @@ img {
     
 }
 
+ /* .float-sm-right {
+    position: relative;
+    right: 1px;
+    position: fixed;
+    top: 580px;
+    right: 1px;
+  } */
+
+  /* #img-1 {
+    visibility: collapse;
+    display: none;
+    position: relative;
+    left: 0px;
+    position: fixed;
+    scroll-padding-left: 1%;
+    bottom: 0px;
+    right: 9px;
+    width: 3%;
+    
+    
+    box-shadow: 1px 1px 3px 1px black;
+} */
+
+#img-2 {
+    /* visibility: collapse; */
+    /* display: none; */
+    
+    position:fixed;
+    scroll-padding-left: 1%;
+    bottom: 0px;
+    right: 9px;
+    width: 3%;
+    
+    /* box-shadow: 1px 1px 3px 1px black; */
+}
+

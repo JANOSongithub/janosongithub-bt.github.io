@@ -77,3 +77,11 @@ footer {
 footer p {
   margin-bottom: 0.25rem;
 }
+
+.float-sm-right {
+  /* position: relative;
+  right: 1px;
+  top: 100px; */
+position: fixed;
+padding-top: 15rem;
+}
